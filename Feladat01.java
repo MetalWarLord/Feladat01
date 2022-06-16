@@ -1,3 +1,6 @@
+//Illés Gábor
+//2022. 06. 16.
+
 public class Feladat01 {
 
     public int feladat01(String[] szinek){
@@ -6,7 +9,7 @@ public class Feladat01 {
         int szinekSzama = szinek.length; //elérhető színek
 
         if(szinekSzama > 1){
-            
+
             //ismétlés nélküli kombinációk
             for(int i = szinekSzama; i > 1; i--){
 
